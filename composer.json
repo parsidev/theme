@@ -1,0 +1,34 @@
+{
+    "name": "parsidev/theme",
+    "description": "Laravel 6 & 7 Themes: Asset & Views folder per theme. Theme inheritance. Blade integration and more...",
+    "keywords": ["themes", "views", "assets", "blade", "laravel", "package"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohammad Reza Parsaeian",
+            "email": "programmer.net2009@live.com"
+        }
+    ],	
+    "require": {
+        "illuminate/contracts": "~6.0 | ~7.0"
+    },
+    "suggest": {
+        "orchestra/asset" : "Use '@css' and '@js' in Blade files"
+    },
+    "autoload": {
+        "psr-4" : {
+            "Parsidev\\LaravelTheme\\" : "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Parsidev\\LaravelTheme\\themeServiceProvider"
+            ],
+            "aliases": {
+                "Theme": "Parsidev\\LaravelTheme\\Facades\\Theme"
+            }
+        }
+    },
+    "minimum-stability": "stable"
+}
