@@ -1,6 +1,6 @@
 {
     "name": "parsidev/theme",
-    "description": "Laravel 6 & 7 Themes: Asset & Views folder per theme. Theme inheritance. Blade integration and more...",
+    "description": "Laravel 6~8 Themes: Asset & Views folder per theme. Theme inheritance. Blade integration and more...",
     "keywords": ["themes", "views", "assets", "blade", "laravel", "package"],
     "license": "MIT",
     "authors": [
@@ -10,7 +10,7 @@
         }
     ],	
     "require": {
-        "illuminate/contracts": "~6.0 | ~7.0"
+        "illuminate/contracts": "~6.0 | ~7.0 | ~8.0"
     },
     "suggest": {
         "orchestra/asset" : "Use '@css' and '@js' in Blade files"
